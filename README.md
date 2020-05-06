@@ -10,4 +10,11 @@ This is a fork of [Google's libphone library](https://github.com/google/libphone
 *   Create a pull request into the master branch. 
 *   Once the PR is accepted and the changes merged into master the Azure pipelines will build run mvn clean install from the ./java folder, push the articfacts to our nexus repository
 
+# How to keep this fork in-sync with the upstream repo.
 
+```After cloning, run the following commands:
+git remote add upstream git@github.com:google/libphonenumber.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
