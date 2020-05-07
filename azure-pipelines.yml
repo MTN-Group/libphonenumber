@@ -1,0 +1,14 @@
+jobs:
+  - job: build_test_deploy
+    steps:
+    
+      
+    - task: Maven@3
+      displayName: Build and deploy artifacts to nexus
+      inputs:
+       mavenPomFile: 'java/pom.xml'
+       options: -s settings.xml clean deploy
+       mavenOptions: '-Xmx3072m'
+       javaHomeOption: 'JDKVersion'
+       jdkVersionOption: '1.11'
+       jdkArchitectureOption: 'x64'
