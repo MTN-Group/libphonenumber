@@ -7,7 +7,7 @@ jobs:
       displayName: Build and deploy artifacts to nexus
       inputs:
        mavenPomFile: 'java/pom.xml'
-       options: -s settings.xml clean deploy
+       options: -s java/settings.xml -DnexusUsername=$(mtn_nexus_username) -DnexusPassword=$(mtn_nexus_password) clean deploy
        mavenOptions: '-Xmx3072m'
        javaHomeOption: 'JDKVersion'
        jdkVersionOption: '1.11'
