@@ -7,7 +7,7 @@ jobs:
       displayName: Build and deploy artifacts to nexus
       inputs:
        mavenPomFile: 'java/pom.xml'
-       options: clean deploy
+       options: -s settings.xml clean deploy
        mavenOptions: '-Xmx3072m'
        javaHomeOption: 'JDKVersion'
        jdkVersionOption: '1.11'
