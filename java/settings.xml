@@ -5,8 +5,8 @@
     <servers>
         <server>
             <id>mtn-nexus-snapshots</id>
-            <username>${mtn_nexus_username}</username>
-            <password>${mtn_nexus_password}</password>
+            <username>${nexusUsername}</username>
+            <password>${nexusPassword}</password>
         </server>
     </servers>
 </settings>
