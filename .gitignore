@@ -3,5 +3,6 @@ java/libphonenumber/target/**
 java/geocoder/target/**
 java/carrier/target/**
 java/demo/target/**
-java/internal//prefixmapper/target/**
+java/internal/prefixmapper/target/**
+java/build/**
 
