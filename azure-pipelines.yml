@@ -5,6 +5,7 @@ jobs:
       
     - task: Maven@3
       displayName: Build and deploy artifacts to nexus
+      condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
       inputs:
        mavenPomFile: 'java/pom.xml'
        options: -s java/settings.xml -DnexusUsername=$(mtn_nexus_username) -DnexusPassword=$(mtn_nexus_password) clean deploy
