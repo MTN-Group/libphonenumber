@@ -166,7 +166,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--            <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <extensions>true</extensions>
@@ -176,7 +176,7 @@
                     <stagingProfileId>23ed8fbc71e875</stagingProfileId>
                     <skipStagingRepositoryClose>true</skipStagingRepositoryClose>
                 </configuration>
-            </plugin>
+            </plugin>-->
             <!-- MTN changes -->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
