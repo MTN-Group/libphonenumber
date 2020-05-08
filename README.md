@@ -4,15 +4,16 @@ This is a fork of [Google's libphone library](https://github.com/google/libphone
 
 ### Making changes for MTN
 
-*   Clone this repository
-*   Make changes to the data in the ./resources folder, and commit the changes.
+*   Clone this repository, create and checkout your feature branch
+*   Make changes to the data in the ./resources folder.
 *   In the ./java folder run the command ant -f build.xml (see [making-metadata-changes.md](making-metadata-changes.md) for more infomation)
+*   Commit and push.
 *   Create a pull request into the master branch. 
 *   Once the PR is accepted and the changes merged into master the Azure pipelines will build run mvn clean install from the ./java folder, push the articfacts to our nexus repository
 
 ### Keeping this fork in-sync with the upstream repo.
 
-After cloning, run the following commands:
+Run the following commands:
 ```git remote add upstream git@github.com:google/libphonenumber.git
 git fetch upstream
 git checkout master
