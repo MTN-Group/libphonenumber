@@ -14,7 +14,8 @@ This is a fork of [Google's libphone library](https://github.com/google/libphone
 ### Keeping this fork in-sync with the upstream repo.
 
 Run the following commands:
-```git remote add upstream git@github.com:google/libphonenumber.git
+```
+git remote add upstream git@github.com:google/libphonenumber.git
 git fetch upstream
 git checkout master
 git merge upstream/master
