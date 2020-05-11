@@ -49,7 +49,7 @@
   <dependencies>
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
-      <artifactId>libphonenumber</artifactId>
+      <artifactId>mtn-libphonenumber</artifactId>
       <version>mtn001-8.12.3-SNAPSHOT</version>
     </dependency>
   </dependencies>
