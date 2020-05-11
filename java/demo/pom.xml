@@ -88,18 +88,18 @@
     </dependency>
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
-      <artifactId>libphonenumber</artifactId>
-      <version>8.12.3-SNAPSHOT</version>
+      <artifactId>mtn-libphonenumber</artifactId>
+      <version>mtn001-8.12.3-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
-      <artifactId>geocoder</artifactId>
-      <version>2.139-SNAPSHOT</version>
+      <artifactId>mtn-geocoder</artifactId>
+      <version>mtn001-2.139-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
-      <artifactId>carrier</artifactId>
-      <version>1.129-SNAPSHOT</version>
+      <artifactId>mtn-carrier</artifactId>
+      <version>mtn001-1.129-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
