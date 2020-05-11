@@ -50,7 +50,7 @@
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
       <artifactId>libphonenumber</artifactId>
-      <version>8.12.3-SNAPSHOT</version>
+      <version>mtn001-8.12.3-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
