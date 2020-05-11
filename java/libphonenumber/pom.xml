@@ -3,15 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>mtn-libphonenumber</artifactId>
-    <version>mtn001-8.12.3-SNAPSHOT</version>
+    <version>mtn001-8.12.4-SNAPSHOT</version>
     <packaging>jar</packaging>
     <url>https://github.com/google/libphonenumber/</url>
 
     <parent>
         <groupId>com.googlecode.libphonenumber</groupId>
         <artifactId>libphonenumber-parent</artifactId>
-        <version>8.12.3-SNAPSHOT</version>
+        <version>8.12.4-SNAPSHOT</version>
     </parent>
+
 
     <build>
         <sourceDirectory>src</sourceDirectory>

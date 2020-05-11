@@ -22,6 +22,7 @@ git fetch upstream
 git checkout master
 git merge upstream/master
 ```
+Be prepared for alot of conflicts. Fix the conflicts by keeping the latest google versions pre-pended with mtn00x-.
 
 ### Using this library for maven based projects
 
@@ -30,17 +31,17 @@ Add the following dependencies to your project:
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>mtn-libphonenumber</artifactId>
-    <version>mtn-001-8.12.3-SNAPSHOT</version>
+    <version>mtn-001-8.12.4-SNAPSHOT</version>
 </dependency>
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>mtn-carrier</artifactId>
-    <version>mtn-001-1.129-SNAPSHOT</version>
+    <version>mtn001-1.130-SNAPSHOT</version>
 </dependency>
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>mtn-geocoder</artifactId>
-    <version>mtn-001-2.139-SNAPSHOT</version>
+    <version>mtn001-2.140-SNAPSHOT</version>
 </dependency>
 ```
 

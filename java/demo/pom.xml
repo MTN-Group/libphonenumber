@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.googlecode.libphonenumber</groupId>
   <artifactId>demo</artifactId>
-  <version>8.12.3-SNAPSHOT</version>
+  <version>8.12.4-SNAPSHOT</version>
   <packaging>jar</packaging>
   <url>https://github.com/google/libphonenumber/</url>
   <parent>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>libphonenumber-parent</artifactId>
-    <version>8.12.3-SNAPSHOT</version>
+    <version>8.12.4-SNAPSHOT</version>
   </parent>
 
   <properties>
@@ -87,19 +87,19 @@
       <version>2.6</version>
     </dependency>
     <dependency>
-      <groupId>com.googlecode.libphonenumber</groupId>
+        <groupId>com.googlecode.libphonenumber</groupId>
       <artifactId>mtn-libphonenumber</artifactId>
-      <version>mtn001-8.12.3-SNAPSHOT</version>
+      <version>mtn001-8.12.4-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
       <artifactId>mtn-geocoder</artifactId>
-      <version>mtn001-2.139-SNAPSHOT</version>
+      <version>mtn001-2.140-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
       <artifactId>mtn-carrier</artifactId>
-      <version>mtn001-1.129-SNAPSHOT</version>
+      <version>mtn001-1.130-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
