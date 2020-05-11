@@ -1,4 +1,6 @@
-[![Build Status](https://dev.azure.com/MTNZAGroup/MADAPI/_apis/build/status/mtn-libphonenumber?branchName=master)](https://dev.azure.com/MTNZAGroup/MADAPI/_build/latest?definitionId=68&branchName=master)
+<p align="right">
+<img src="https://dev.azure.com/MTNZAGroup/MADAPI/_apis/build/status/mtn-libphonenumber?branchName=master">
+</p>
 
 # What is it?
 
