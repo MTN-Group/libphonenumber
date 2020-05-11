@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/MTNZAGroup/MADAPI/_apis/build/status/mtn-libphonenumber?branchName=master)](https://dev.azure.com/MTNZAGroup/MADAPI/_build/latest?definitionId=68&branchName=master)
+
 # What is it?
 
 This is a fork of [Google's libphone library](https://github.com/google/libphonenumber). The original Readme can be viewed [here](https://github.com/google/libphonenumber/blob/master/README.md). This fork was created to allow MTN specific updates the to the library.
@@ -25,21 +27,21 @@ git merge upstream/master
 
 Add the following dependencies to your project:
 ```     
-        <dependency>
-            <groupId>com.googlecode.libphonenumber</groupId>
-            <artifactId>mtn-libphonenumber</artifactId>
-            <version>8.12.3-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.libphonenumber</groupId>
-            <artifactId>mtn-carrier</artifactId>
-            <version>1.129-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.libphonenumber</groupId>
-            <artifactId>mtn-geocoder</artifactId>
-            <version>2.139-SNAPSHOT</version>
-        </dependency>
+<dependency>
+    <groupId>com.googlecode.libphonenumber</groupId>
+    <artifactId>mtn-libphonenumber</artifactId>
+    <version>mtn-001-8.12.3-SNAPSHOT</version>
+</dependency>
+<dependency>
+    <groupId>com.googlecode.libphonenumber</groupId>
+    <artifactId>mtn-carrier</artifactId>
+    <version>mtn-001-1.129-SNAPSHOT</version>
+</dependency>
+<dependency>
+    <groupId>com.googlecode.libphonenumber</groupId>
+    <artifactId>mtn-geocoder</artifactId>
+    <version>mtn-001-2.139-SNAPSHOT</version>
+</dependency>
 ```
 
 
