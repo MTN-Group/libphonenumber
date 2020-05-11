@@ -1,7 +1,3 @@
-<p align="right">
-<img src="https://dev.azure.com/MTNZAGroup/MADAPI/_apis/build/status/mtn-libphonenumber?branchName=master">
-</p>
-
 # What is it?
 
 This is a fork of [Google's libphone library](https://github.com/google/libphonenumber). The original Readme can be viewed [here](https://github.com/google/libphonenumber/blob/master/README.md). This fork was created to allow MTN specific updates the to the library.
