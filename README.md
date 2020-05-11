@@ -29,7 +29,7 @@ Add the following dependencies to your project:
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
     <artifactId>mtn-libphonenumber</artifactId>
-    <version>mtn-001-8.12.4-SNAPSHOT</version>
+    <version>mtn001-8.12.4-SNAPSHOT</version>
 </dependency>
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
