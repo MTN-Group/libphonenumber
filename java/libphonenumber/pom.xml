@@ -105,7 +105,7 @@
                 </executions>
                 <configuration>
                     <serverId>mtn-nexus-snapshots</serverId>
-                    <nexusUrl>http://nexus-mtnapitest.e4ff.pro-eu-west-1.openshiftapps.com/nexus/content/repositories/mtn-snapshots</nexusUrl>
+                    <nexusSnapshotUrl>${env.nexusSnapshotUrl}</nexusSnapshotUrl>
                     <skipStaging>true</skipStaging>
                 </configuration>
             </plugin>
@@ -116,7 +116,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>mtn-nexus-snapshots</id>
-            <url>http://nexus-mtnapitest.e4ff.pro-eu-west-1.openshiftapps.com/nexus/content/repositories/mtn-snapshots</url>
+            <url>${env.nexusSnapshotUrl}</url>
         </snapshotRepository>
     </distributionManagement>
 
