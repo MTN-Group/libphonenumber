@@ -105,7 +105,7 @@
                 </executions>
                 <configuration>
                     <serverId>mtn-nexus-snapshots</serverId>
-                    <nexusSnapshotUrl>${env.nexusSnapshotUrl}</nexusSnapshotUrl>
+                    <nexusSnapshotUrl>${nexusSnapshotUrl}</nexusSnapshotUrl>
                     <skipStaging>true</skipStaging>
                 </configuration>
             </plugin>
@@ -116,7 +116,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>mtn-nexus-snapshots</id>
-            <url>${env.nexusSnapshotUrl}</url>
+            <url>${nexusSnapshotUrl}</url>
         </snapshotRepository>
     </distributionManagement>
 
